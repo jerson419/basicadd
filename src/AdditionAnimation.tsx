@@ -74,7 +74,7 @@ export function AdditionAnimation({ num1, num2, onComplete }: { num1: number; nu
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ delay: 0.5 }}
 				onClick={onComplete}
-				className="mt-8 px-8 py-3 bg-sky-500 hover:bg-sky-400 text-white rounded-full font-bold text-xl shadow-lg active:scale-95 transition-all flex items-center gap-2"
+				className="mt-8 px-8 py-3 bg-green-500 hover:bg-green-400 text-white rounded-full font-bold text-xl shadow-lg active:scale-95 transition-all flex items-center gap-2"
 			>
 				Continue
 				<ArrowRight className="w-6 h-6" />
